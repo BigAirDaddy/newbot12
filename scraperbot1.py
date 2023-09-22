@@ -17,6 +17,7 @@ bot = commands.Bot(command_prefix='!', intents=intents)
 
 # Replace with your channel ID
 YOUR_CHANNEL_ID = 1154626838035959878
+DISCORD_TOKEN = MTE1NDYxNDY2MTAyMzUzMTE1OQ.G1lrKC.GRGwILDvQis3UeCSTf_2-YnrqB8zfgPnNhfkGE
 
 # Function to click the "Reply" button, scrape comments, and return
 def click_reply_and_scrape_comments(driver):
@@ -90,4 +91,4 @@ async def scrape_task():
     await scrape_community_post_and_comments(channel)
 
 # Run the bot
-bot.run('MTE1NDYxNDY2MTAyMzUzMTE1OQ.G1lrKC.GRGwILDvQis3UeCSTf_2-YnrqB8zfgPnNhfkGE')
+bot.run('DISCORD_TOKEN')
